@@ -16,11 +16,11 @@ variable "pem-key" {
 variable "access_key_id" {
   description = "The access key ID for the cloud user"
   type        = string
-  sensitive = true
+  sensitive   = true
 }
 
 variable "access_key" {
   description = "The access key for the cloud user"
   type        = string
-  sensitive = true
+  sensitive   = true
 }
